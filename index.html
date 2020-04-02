@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cahee</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navigation">
+                <a href="#" class="logo">Cahee</a>
+                <ul class="menu">
+                    <li class="menu__item"><a href="#header" class="menu__link menu__link--active">Home</a></li>
+                    <li class="menu__item"><a href="#about" class="menu__link">About</a></li>
+                    <li class="menu__item"><a href="#services" class="menu__link">Services</a></li>
+                    <li class="menu__item"><a href="#gallery" class="menu__link">Gallery</a></li>
+                    <li class="menu__item"><a href="#blog" class="menu__link">Blog</a></li>
+                    <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="row">
+                <div class="col-4 info-box">
+                    <h1 class="info-box__title">Fresh life</h1>
+                    <p class="info-box__desc">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                        ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <a href="#" class="button">Get free now</a>
+                </div>
+                <a href="#about" class="scroll-dawn">
+                    <svg class="icon">
+                        <use xlink:href="images/icons-sprite.svg#scroll"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row about__row">
+                <div class="offset-7 col-5 about__block">
+                    <h1 class="about__title">About Us</h1>
+                    <p class="about__text">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum.
+                    </p>
+                    <p class="about__text">
+                        Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <div class="row services__row">
+                <div class="offset-1 col-5 services__block">
+                    <ul class="services__kigns">
+                        <li class="services__item">
+                            <h3 class="services__text">Online Shopping</h3>
+                            <div class="services__icon">
+                                <img src="images/icons/basket.svg" alt="basket">
+                            </div>
+                        </li>
+                        <li class="services__item">
+                            <h3 class="services__text">Quality Product</h3>
+                            <div class="services__icon">
+                                <img src="images/icons/hand.svg" alt="hand">
+                            </div>
+                        </li>
+                        <li class="services__item">
+                            <h3 class="services__text">Domestic & International Delivery</h3>
+                            <div class="services__icon">
+                                <img src="images/icons/earth.svg" alt="earth">
+                            </div>
+                        </li>
+                        <li class="services__item">
+                            <h3 class="services__text">Well Organized</h3>
+                            <div class="services__icon">
+                                <img src="images/icons/carrot.svg" alt="carrot">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 services__block">
+                    <div class="services__image">
+                        <img src="images/services-bg.png" alt="services">
+                    </div>
+                    <h1 class="services__title">Our Services</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="gallery__text">
+                <h1 class="gallery__title">Gallery</h1>
+                <p class="gallery__description">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea
+                    commodo consequat.</p>
+            </div>
+            <div class="row gallery__row">
+                <div class="col-8 gallery__row">
+                    <img class="gallery__image1" src="images/gallery/1.jpg" alt="knife">
+                </div>
+                <div class="col-4 gallery__row">
+                    <img class="gallery__image2" src="images/gallery/2.jpg" alt="">
+                    <img class="gallery__image3" src="images/gallery/3.jpg" alt="">
+                </div>
+            </div>
+            <div class="row gallery__row">
+                <div class="col-6 gallery__row">
+                    <img class="gallery__image4" src="images/gallery/4.jpg" alt="">
+                </div>
+                <div class="col-6 gallery__row">
+                    <img class="gallery__image5" src="images/gallery/5.jpg" alt="">
+                </div>
+            </div>
+            <form action="#" class="gallery__form">
+                <input class="gallery__form--submit" type="submit" value="VIEW MORE">
+            </form>
+        </div>
+    </section>
+    <section class="subscribe" id="subscribe">
+        <div class="container">
+            <div class="row subscribe__row">
+                <div class="col-9 subscribe__row">
+                    <h1 class="subscribe__title">Subscribe To Us</h1>
+                    <p class="subscribe__text">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <form action="#" class="subscribe__form">
+                        <input class="subscribe__form--email" type="email" id="email"
+                            placeholder="Your email address...">
+                        <input class="subscribe__form--submit" type="submit" value="SUBSCRIBE">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer__row">
+                <p class="footer__copyright">© 2015 Company. All right reserved.</p>
+                <a href="#" class="logo logo--footer">Cahee</a>
+                <p class="footer__author">Made with <span class="text-red text-bold">love</span> by Auskteez</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
